@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bdq33ccl733w4"]
+
+[node name="Locomotion" type="Node2D"]
