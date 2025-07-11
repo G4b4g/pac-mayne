@@ -29,7 +29,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_xlak0")
 }],
 "loop": true,
-"name": &"Down",
+"name": &"down",
 "speed": 5.0
 }, {
 "frames": [{
@@ -37,7 +37,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_2dt0v")
 }],
 "loop": true,
-"name": &"Idle",
+"name": &"idle",
 "speed": 5.0
 }, {
 "frames": [{
@@ -45,7 +45,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_5i05h")
 }],
 "loop": true,
-"name": &"Left",
+"name": &"left",
 "speed": 5.0
 }, {
 "frames": [{
@@ -53,7 +53,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_1g58l")
 }],
 "loop": true,
-"name": &"Right",
+"name": &"right",
 "speed": 5.0
 }, {
 "frames": [{
@@ -61,7 +61,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_5b244")
 }],
 "loop": true,
-"name": &"Up",
+"name": &"up",
 "speed": 5.0
 }]
 
@@ -69,4 +69,4 @@ animations = [{
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2dt0v")
-animation = &"Idle"
+animation = &"idle"
